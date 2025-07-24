@@ -4,7 +4,7 @@
   padding: 10px;
   font-size: 14px;
   color: #666;
-  border-width: 5px;
+  border-width: 10px;
 }
 
 
@@ -38,7 +38,7 @@ body.dark {
   margin: 5px;
   padding: 5px;
   box-sizing: border-box;
-  border-width: 5px;
+  border-width: 10px;
 }
 
 body {
