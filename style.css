@@ -12,9 +12,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+  min-width: 10%;
+  min-height: 10%;
+  object-fit: relative;
   z-index: -1;
 }
 
@@ -109,6 +109,7 @@ body {
   font-size: 16px;
 }
 
+
 .video {
 width: 5px;
 height: 5px;
@@ -126,34 +127,5 @@ height: 5px;
 @media (min-width: 768px) {
   .hero h2 {
     font-size: 3rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .container {
-    flex-direction: row;
-    text-align: center;
-  }
-
-  .hero {
-    flex-direction: row;
-    padding: 20px;
-  }
-
-  .hero-content h1 {
-    font-size: 32px;
-  }
-
-  .hero-content p {
-    font-size: 16px;
-  }
-
-  .buttons a {
-    display: block;
-    margin: 10px auto;
-  }
-
-  .product {
-    width: 40%;
   }
 }
